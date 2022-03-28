@@ -9,7 +9,19 @@ import SwiftUI
 
 struct TimelinepgView: View {
     var body: some View {
-        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
+        VStack{
+        VideoView(videoID: "Da-2h2B4faU")
+   .frame(minHeight: 0, maxHeight: UIScreen.main.bounds.height * 0.3)
+   .cornerRadius(12)
+   .padding(.horizontal,24)
+        
+        
+        Spacer()
+        
+        
+        
+        
+        }
     }
 }
 

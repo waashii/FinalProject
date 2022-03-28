@@ -10,6 +10,11 @@ import SwiftUI
 struct secondpgView: View {
    @State var username : String = ""
     var body: some View {
+        ZStack{
+            Image("backbackground")
+                .resizable()
+//                .scaledToFit()
+            
         VStack{
             HStack{
                 
@@ -28,18 +33,22 @@ struct secondpgView: View {
                     Image("astroicon")
                         .resizable()
                         .scaledToFit()
-.frame(width: 140, height: 140)
+.frame(width: 130, height: 140)
                     Spacer()
-                    Image("psychologyicon")
+                    Image("mindicon")
                         .resizable()
                         .scaledToFit()
-.frame(width: 100, height: 100)
+.frame(width: 120, height: 150)
                     Spacer()
                     
                 }
     
                 ZStack{
-                    Color.cyan
+                    Color.black
+                        .frame(width: 250, height: 600)
+//                    Image("backbackground")
+//                        .resizable()
+//                        .scaledToFit()
                 VStack{
 Text("Welcome  \(username)!")
                     .font(.system(.title, design: .rounded))
@@ -50,9 +59,10 @@ Text("Welcome  \(username)!")
                    
                 }
                 }
-                
-                
             }
+        }
+        
+
         }
     }
 }
