@@ -15,31 +15,31 @@ struct secondpgView: View {
                 
                 VStack{
                     Spacer()
-                    Image("scienceo")
+                    Image("icon3")
+                        .resizable()
+                        .scaledToFit()
+.frame(width: 100, height: 100)
+                    Spacer()
+                    Image("timelineicon")
                         .resizable()
                         .scaledToFit()
 .frame(width: 120, height: 150)
                     Spacer()
-                    Image("scienceo")
+                    Image("astroicon")
                         .resizable()
                         .scaledToFit()
-.frame(width: 120, height: 150)
+.frame(width: 140, height: 140)
                     Spacer()
-                    Image("scienceo")
+                    Image("psychologyicon")
                         .resizable()
                         .scaledToFit()
-.frame(width: 120, height: 150)
-                    Spacer()
-                    Image("scienceo")
-                        .resizable()
-                        .scaledToFit()
-.frame(width: 120, height: 150)
+.frame(width: 100, height: 100)
                     Spacer()
                     
                 }
     
                 ZStack{
-                    Color.brown
+                    Color.cyan
                 VStack{
 Text("Welcome  \(username)!")
                     .font(.system(.title, design: .rounded))
