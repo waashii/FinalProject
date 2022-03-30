@@ -7,7 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		3673B41D27F2275C002E74ED /* VdeoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3673B41C27F2275C002E74ED /* VdeoView.swift */; };
+		3673B41D27F2275C002E74ED /* VideoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3673B41C27F2275C002E74ED /* VideoView.swift */; };
 		36C9B33327EDFB53002DAD33 /* secondpgView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36C9B33227EDFB53002DAD33 /* secondpgView.swift */; };
 		36C9B33527EE3F69002DAD33 /* TimelinepgView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36C9B33427EE3F69002DAD33 /* TimelinepgView.swift */; };
 		36D1C9C427F4500B003BD2E0 /* StringpgView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36D1C9C327F4500B003BD2E0 /* StringpgView.swift */; };
@@ -20,7 +20,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		3673B41C27F2275C002E74ED /* VdeoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VdeoView.swift; sourceTree = "<group>"; };
+		3673B41C27F2275C002E74ED /* VideoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VideoView.swift; sourceTree = "<group>"; };
 		36C9B33227EDFB53002DAD33 /* secondpgView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = secondpgView.swift; sourceTree = "<group>"; };
 		36C9B33427EE3F69002DAD33 /* TimelinepgView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimelinepgView.swift; sourceTree = "<group>"; };
 		36D1C9C327F4500B003BD2E0 /* StringpgView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StringpgView.swift; sourceTree = "<group>"; };
@@ -72,7 +72,7 @@
 				36D1C9C727F453F6003BD2E0 /* PsychologypgView.swift */,
 				36F6B2A727ECB69C0038F31D /* Assets.xcassets */,
 				36F6B2A927ECB69C0038F31D /* Preview Content */,
-				3673B41C27F2275C002E74ED /* VdeoView.swift */,
+				3673B41C27F2275C002E74ED /* VideoView.swift */,
 			);
 			path = ScienceNlogic;
 			sourceTree = "<group>";
@@ -162,7 +162,7 @@
 				36D1C9C827F453F6003BD2E0 /* PsychologypgView.swift in Sources */,
 				36F6B2A427ECB6950038F31D /* ScienceNlogicApp.swift in Sources */,
 				36D1C9C427F4500B003BD2E0 /* StringpgView.swift in Sources */,
-				3673B41D27F2275C002E74ED /* VdeoView.swift in Sources */,
+				3673B41D27F2275C002E74ED /* VideoView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

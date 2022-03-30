@@ -10,8 +10,12 @@ import SwiftUI
 struct PsychologypgView: View {
     var body: some View {
    VStack{
-//       ScrollView(.hori)
-VideoView(videoID: "yk2V5I78aHg")
+//       Text("wewo")
+//           .font(.largeTitle)
+//       ScrollView(.horizontal){
+//           VStack{
+       
+   VideoView(videoID: "yk2V5I78aHg")
 .frame(minHeight: 0, maxHeight: UIScreen.main.bounds.height * 0.3)
 .cornerRadius(12)
 .padding(.horizontal,24)
@@ -22,6 +26,13 @@ VideoView(videoID: "yk2V5I78aHg")
        .cornerRadius(12)
        .padding(.horizontal,24)
 
+       
+//           }
+//       }
+       Spacer()
+//       ScrollView(.horizontal){
+//
+//       }
           }
     }
 }
