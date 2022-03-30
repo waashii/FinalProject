@@ -10,6 +10,9 @@
 		3673B41D27F2275C002E74ED /* VdeoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3673B41C27F2275C002E74ED /* VdeoView.swift */; };
 		36C9B33327EDFB53002DAD33 /* secondpgView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36C9B33227EDFB53002DAD33 /* secondpgView.swift */; };
 		36C9B33527EE3F69002DAD33 /* TimelinepgView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36C9B33427EE3F69002DAD33 /* TimelinepgView.swift */; };
+		36D1C9C427F4500B003BD2E0 /* StringpgView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36D1C9C327F4500B003BD2E0 /* StringpgView.swift */; };
+		36D1C9C627F452CD003BD2E0 /* DimensionpgView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36D1C9C527F452CD003BD2E0 /* DimensionpgView.swift */; };
+		36D1C9C827F453F6003BD2E0 /* PsychologypgView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36D1C9C727F453F6003BD2E0 /* PsychologypgView.swift */; };
 		36F6B2A427ECB6950038F31D /* ScienceNlogicApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36F6B2A327ECB6950038F31D /* ScienceNlogicApp.swift */; };
 		36F6B2A627ECB6950038F31D /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36F6B2A527ECB6950038F31D /* ContentView.swift */; };
 		36F6B2A827ECB69C0038F31D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 36F6B2A727ECB69C0038F31D /* Assets.xcassets */; };
@@ -20,6 +23,9 @@
 		3673B41C27F2275C002E74ED /* VdeoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VdeoView.swift; sourceTree = "<group>"; };
 		36C9B33227EDFB53002DAD33 /* secondpgView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = secondpgView.swift; sourceTree = "<group>"; };
 		36C9B33427EE3F69002DAD33 /* TimelinepgView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimelinepgView.swift; sourceTree = "<group>"; };
+		36D1C9C327F4500B003BD2E0 /* StringpgView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StringpgView.swift; sourceTree = "<group>"; };
+		36D1C9C527F452CD003BD2E0 /* DimensionpgView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DimensionpgView.swift; sourceTree = "<group>"; };
+		36D1C9C727F453F6003BD2E0 /* PsychologypgView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PsychologypgView.swift; sourceTree = "<group>"; };
 		36F6B2A027ECB6950038F31D /* ScienceNlogic.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ScienceNlogic.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		36F6B2A327ECB6950038F31D /* ScienceNlogicApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScienceNlogicApp.swift; sourceTree = "<group>"; };
 		36F6B2A527ECB6950038F31D /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -61,6 +67,9 @@
 				36F6B2A527ECB6950038F31D /* ContentView.swift */,
 				36C9B33227EDFB53002DAD33 /* secondpgView.swift */,
 				36C9B33427EE3F69002DAD33 /* TimelinepgView.swift */,
+				36D1C9C327F4500B003BD2E0 /* StringpgView.swift */,
+				36D1C9C527F452CD003BD2E0 /* DimensionpgView.swift */,
+				36D1C9C727F453F6003BD2E0 /* PsychologypgView.swift */,
 				36F6B2A727ECB69C0038F31D /* Assets.xcassets */,
 				36F6B2A927ECB69C0038F31D /* Preview Content */,
 				3673B41C27F2275C002E74ED /* VdeoView.swift */,
@@ -147,9 +156,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				36C9B33527EE3F69002DAD33 /* TimelinepgView.swift in Sources */,
+				36D1C9C627F452CD003BD2E0 /* DimensionpgView.swift in Sources */,
 				36F6B2A627ECB6950038F31D /* ContentView.swift in Sources */,
 				36C9B33327EDFB53002DAD33 /* secondpgView.swift in Sources */,
+				36D1C9C827F453F6003BD2E0 /* PsychologypgView.swift in Sources */,
 				36F6B2A427ECB6950038F31D /* ScienceNlogicApp.swift in Sources */,
+				36D1C9C427F4500B003BD2E0 /* StringpgView.swift in Sources */,
 				3673B41D27F2275C002E74ED /* VdeoView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
