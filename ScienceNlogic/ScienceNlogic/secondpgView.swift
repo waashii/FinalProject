@@ -14,56 +14,67 @@ struct secondpgView: View {
             Image("backbackground")
                 .resizable()
 //                .scaledToFit()
-            
+                .ignoresSafeArea()
+            ScrollView{
         VStack{
             HStack{
                 
                 VStack{
                     Spacer()
-                    Image("icon3")
+                    Image("dfwrld")
                         .resizable()
                         .scaledToFit()
-.frame(width: 100, height: 100)
+.frame(width: 400, height: 300)
                     Spacer()
-                    Image("timelineicon")
+                    Image("mindu")
                         .resizable()
                         .scaledToFit()
-.frame(width: 120, height: 150)
+//            .frame(width: 500, height: 250)
+            .ignoresSafeArea()
+                    
                     Spacer()
                     Image("astroicon")
                         .resizable()
                         .scaledToFit()
-.frame(width: 130, height: 140)
+        .frame(width: 350, height: 200)
                     Spacer()
                     Image("mindicon")
                         .resizable()
                         .scaledToFit()
-.frame(width: 120, height: 150)
+                        .frame(width: 350, height: 200)
+                    
                     Spacer()
                     
-                }
+                    
+        }
+//          V2       //
     
-                ZStack{
-                    Color.black
-                        .frame(width: 250, height: 600)
-//                    Image("backbackground")
-//                        .resizable()
-//                        .scaledToFit()
-                VStack{
-Text("Welcome  \(username)!")
-                    .font(.system(.title, design: .rounded))
-                    .fontWeight(.medium)
-                    .foregroundColor(Color.white)
-
-                
-                   
-                }
-                }
+//                ZStack{
+//                    Color.black
+//                        .frame(width: 250, height: 600)
+////                    Image("backbackground")
+////                        .resizable()
+////                        .scaledToFit()
+//                VStack{
+//Text("Welcome  \(username)!")
+//                    .font(.system(.title, design: .rounded))
+//                    .fontWeight(.medium)
+//                    .foregroundColor(Color.white)
+//
+//
+//
+//                }
+//                }
             }
+//       H1         //
         }
-        
+//       V1      //
 
+            }
+//       scroll          //
+            
         }
+//          Z       //
     }
 }
 

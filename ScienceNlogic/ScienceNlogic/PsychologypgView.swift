@@ -10,6 +10,7 @@ import SwiftUI
 struct PsychologypgView: View {
     var body: some View {
    VStack{
+       
 //       Text("wewo")
 //           .font(.largeTitle)
 //       ScrollView(.horizontal){
