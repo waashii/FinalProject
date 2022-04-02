@@ -9,6 +9,7 @@ import SwiftUI
 
 struct StringpgView: View {
     var body: some View {
+//        ScrollView{
         VStack{
  VideoView(videoID: "Da-2h2B4faU")
 .frame(minHeight: 0, maxHeight: UIScreen.main.bounds.height * 0.3)
@@ -20,7 +21,7 @@ struct StringpgView: View {
             
             
         }
-        
+//        }
     }
 }
 

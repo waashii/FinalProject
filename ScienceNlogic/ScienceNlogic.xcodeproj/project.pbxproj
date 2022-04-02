@@ -7,11 +7,15 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		3667D62327F8632E00037BDC /* secondView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3667D62227F8632E00037BDC /* secondView.swift */; };
+		3667D62327F8632E00037BDC /* veView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3667D62227F8632E00037BDC /* veView.swift */; };
 		3667D62527F8640B00037BDC /* picture.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3667D62427F8640B00037BDC /* picture.swift */; };
 		3667D62727F8646700037BDC /* detailsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3667D62627F8646700037BDC /* detailsView.swift */; };
 		3667D62927F87C0800037BDC /* copy.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3667D62827F87C0800037BDC /* copy.swift */; };
 		3673B41D27F2275C002E74ED /* VideoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3673B41C27F2275C002E74ED /* VideoView.swift */; };
+		3698E78B27F90A0C00CBB375 /* quizone.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3698E78A27F90A0C00CBB375 /* quizone.swift */; };
+		3698E78D27F90A2300CBB375 /* quiztwo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3698E78C27F90A2300CBB375 /* quiztwo.swift */; };
+		3698E78F27F90A3400CBB375 /* quizthree.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3698E78E27F90A3400CBB375 /* quizthree.swift */; };
+		3698E79127F90A4200CBB375 /* quizfour.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3698E79027F90A4200CBB375 /* quizfour.swift */; };
 		36C9B33327EDFB53002DAD33 /* secondpgView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36C9B33227EDFB53002DAD33 /* secondpgView.swift */; };
 		36C9B33527EE3F69002DAD33 /* TimelinepgView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36C9B33427EE3F69002DAD33 /* TimelinepgView.swift */; };
 		36D1C9C427F4500B003BD2E0 /* StringpgView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36D1C9C327F4500B003BD2E0 /* StringpgView.swift */; };
@@ -24,11 +28,15 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		3667D62227F8632E00037BDC /* secondView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = secondView.swift; sourceTree = "<group>"; };
+		3667D62227F8632E00037BDC /* veView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = veView.swift; sourceTree = "<group>"; };
 		3667D62427F8640B00037BDC /* picture.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = picture.swift; sourceTree = "<group>"; };
 		3667D62627F8646700037BDC /* detailsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = detailsView.swift; sourceTree = "<group>"; };
 		3667D62827F87C0800037BDC /* copy.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = copy.swift; sourceTree = "<group>"; };
 		3673B41C27F2275C002E74ED /* VideoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VideoView.swift; sourceTree = "<group>"; };
+		3698E78A27F90A0C00CBB375 /* quizone.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = quizone.swift; sourceTree = "<group>"; };
+		3698E78C27F90A2300CBB375 /* quiztwo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = quiztwo.swift; sourceTree = "<group>"; };
+		3698E78E27F90A3400CBB375 /* quizthree.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = quizthree.swift; sourceTree = "<group>"; };
+		3698E79027F90A4200CBB375 /* quizfour.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = quizfour.swift; sourceTree = "<group>"; };
 		36C9B33227EDFB53002DAD33 /* secondpgView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = secondpgView.swift; sourceTree = "<group>"; };
 		36C9B33427EE3F69002DAD33 /* TimelinepgView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimelinepgView.swift; sourceTree = "<group>"; };
 		36D1C9C327F4500B003BD2E0 /* StringpgView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StringpgView.swift; sourceTree = "<group>"; };
@@ -75,12 +83,16 @@
 				36F6B2A527ECB6950038F31D /* ContentView.swift */,
 				36C9B33227EDFB53002DAD33 /* secondpgView.swift */,
 				3667D62827F87C0800037BDC /* copy.swift */,
-				3667D62227F8632E00037BDC /* secondView.swift */,
-				3667D62627F8646700037BDC /* detailsView.swift */,
-				36C9B33427EE3F69002DAD33 /* TimelinepgView.swift */,
-				36D1C9C327F4500B003BD2E0 /* StringpgView.swift */,
 				36D1C9C527F452CD003BD2E0 /* DimensionpgView.swift */,
+				3698E78A27F90A0C00CBB375 /* quizone.swift */,
 				36D1C9C727F453F6003BD2E0 /* PsychologypgView.swift */,
+				3698E78C27F90A2300CBB375 /* quiztwo.swift */,
+				36C9B33427EE3F69002DAD33 /* TimelinepgView.swift */,
+				3698E78E27F90A3400CBB375 /* quizthree.swift */,
+				36D1C9C327F4500B003BD2E0 /* StringpgView.swift */,
+				3698E79027F90A4200CBB375 /* quizfour.swift */,
+				3667D62627F8646700037BDC /* detailsView.swift */,
+				3667D62227F8632E00037BDC /* veView.swift */,
 				36F6B2A727ECB69C0038F31D /* Assets.xcassets */,
 				36F6B2A927ECB69C0038F31D /* Preview Content */,
 				3673B41C27F2275C002E74ED /* VideoView.swift */,
@@ -176,8 +188,12 @@
 				36F6B2A427ECB6950038F31D /* ScienceNlogicApp.swift in Sources */,
 				36D1C9C427F4500B003BD2E0 /* StringpgView.swift in Sources */,
 				3667D62927F87C0800037BDC /* copy.swift in Sources */,
+				3698E78F27F90A3400CBB375 /* quizthree.swift in Sources */,
+				3698E78D27F90A2300CBB375 /* quiztwo.swift in Sources */,
 				3667D62527F8640B00037BDC /* picture.swift in Sources */,
-				3667D62327F8632E00037BDC /* secondView.swift in Sources */,
+				3698E78B27F90A0C00CBB375 /* quizone.swift in Sources */,
+				3667D62327F8632E00037BDC /* veView.swift in Sources */,
+				3698E79127F90A4200CBB375 /* quizfour.swift in Sources */,
 				3673B41D27F2275C002E74ED /* VideoView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

@@ -8,7 +8,7 @@
 import SwiftUI
 
 struct secondpgView: View {
-   @State var username : String = ""
+//   @State var username : String = ""
     var body: some View {
         ZStack{
             Image("blackbackground")
@@ -21,7 +21,7 @@ struct secondpgView: View {
                 
                 VStack{
                     ZStack{
-                    Image("reflect")
+                    Image("dimension")
 .resizable()
 .scaledToFit()
 .ignoresSafeArea()
@@ -68,19 +68,19 @@ struct secondpgView: View {
                     ZStack{
 //                        NavigationView{
 //NavigationLink(destination:StringpgView()){
-                    Image("string")
+                    Image("stringy")
 .resizable()
 .scaledToFit()
 .ignoresSafeArea()
 //                       NavigationView{
 
-//                        Text("String")
-//.font(.largeTitle)
-//.fontWeight(.thin)
-//.foregroundColor(Color.white)
-}
+                        Text("String")
+.font(.largeTitle)
+.fontWeight(.thin)
+.foregroundColor(Color.white)
+//}
 //  navigation link and destination
-}.navigationBarTitle("string theory")
+//}.navigationBarTitle("")
 //  navigation view
                     }
              //     Z6   //
@@ -91,21 +91,6 @@ struct secondpgView: View {
                     
         }
 //          V2       //
-    
-//                ZStack{
-//                    Color.black
-//                        .frame(width: 250, height: 600)
-////                    Image("backbackground")
-////                        .resizable()
-////                        .scaledToFit()
-//                VStack{
-//Text("Welcome  \(username)!")
-//                    .font(.system(.title, design: .rounded))
-//                    .fontWeight(.medium)
-//                    .foregroundColor(Color.white)
-//
-//
-//
 //                }
 //                }
             }
@@ -113,15 +98,15 @@ struct secondpgView: View {
         }
 //       V1      //
 //..........          .....      ....
-//                VStack{
-//                    Text("WEEEE")
-//                        .font(.largeTitle)
-//                        .foregroundColor(Color.white)
+//    VStack{
+//    Text("WEEEE")
+//     .font(.largeTitle)
+//                .foregroundColor(Color.white)
 //
-//                }
-//                 //
-//                  / /..........
-//                 //
+//         }
+//       //
+//         / /..........
+//                //
 //                //
     //           V2     //
                 
