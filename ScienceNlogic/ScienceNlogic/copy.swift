@@ -1,13 +1,13 @@
 //
-//  secondpgView.swift
+//  copy.swift
 //  ScienceNlogic
 //
-//  Created by washi alhammadi on 25/03/2022.
+//  Created by washi alhammadi on 02/04/2022.
 //
 
 import SwiftUI
 
-struct secondpgView: View {
+struct copy: View {
    @State var username : String = ""
     var body: some View {
         ZStack{
@@ -21,7 +21,7 @@ struct secondpgView: View {
                 
                 VStack{
                     ZStack{
-                    Image("reflect")
+                    Image("dimension")
 .resizable()
 .scaledToFit()
 .ignoresSafeArea()
@@ -65,10 +65,10 @@ struct secondpgView: View {
 .foregroundColor(Color.white)
                     }
              //     Z5    //
-                    ZStack{
-//                        NavigationView{
-//NavigationLink(destination:StringpgView()){
-                    Image("string")
+//                    ZStack{
+                        NavigationView{
+NavigationLink(destination:StringpgView()){
+                    Image("stringy")
 .resizable()
 .scaledToFit()
 .ignoresSafeArea()
@@ -82,7 +82,7 @@ struct secondpgView: View {
 //  navigation link and destination
 }.navigationBarTitle("string theory")
 //  navigation view
-                    }
+//                    }
              //     Z6   //
                
                     
@@ -132,8 +132,8 @@ struct secondpgView: View {
     }
 }
 
-struct secondpgView_Previews: PreviewProvider {
+struct copy_Previews: PreviewProvider {
     static var previews: some View {
-        secondpgView()
+        copy()
     }
 }

@@ -8,6 +8,7 @@
 import SwiftUI
 
 struct DimensionpgView: View {
+    var movie: picture
     var body: some View {
 //        Text("")
         VStack{
@@ -26,6 +27,6 @@ struct DimensionpgView: View {
 
 struct DimensionpgView_Previews: PreviewProvider {
     static var previews: some View {
-        DimensionpgView()
+        DimensionpgView(movie: picture(movieName:"space"))
     }
 }
