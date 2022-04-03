@@ -7,7 +7,7 @@
 
 import Foundation
 
-struct picture: Identifiable{
+struct flm: Identifiable{
     var movieName: String
     var id = UUID()
 }

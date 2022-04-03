@@ -29,7 +29,16 @@ struct secondpgView: View {
 .font(.largeTitle)
 .fontWeight(.thin)
 .foregroundColor(Color.black)
+                    }.onTapGesture {
+                     
+                        //the code that we change the page
+        NavigationView{
+        NavigationLink( destination: DimensionpgView()) {
+                                
+                            }
+                        }
                     }
+//                   // ontap stuff//
              //     Z2    //
                     ZStack{
                     Image("brainnheart")
@@ -109,7 +118,8 @@ struct secondpgView: View {
 //                //
 //                //
     //           V2     //
-                
+
+
             }
 //       scroll          //
         }

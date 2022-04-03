@@ -2,13 +2,12 @@
 //  detailsView.swift
 //  ScienceNlogic
 //
-//  Created by washi alhammadi on 02/04/2022.
-//
+//  Created by washi alhammadi on 03/04/2022.
 //
 import SwiftUI
-//
+
 struct detailsView: View {
-    var movie: picture
+    var movie: flm
 
     var body: some View {
         ZStack {
@@ -27,22 +26,19 @@ struct detailsView: View {
                     .frame(height:300)
                     .overlay(Circle().stroke(Color.white, lineWidth: 6))
                     .clipShape(Circle())
-                //...//
-// if CW-6 then remove the below and use the HStack
+                // if CW-6 then remove the below and use the HStack
                 Text(movie.movieName)
                     .font(.system(size: 47))
                     .foregroundColor(Color.white)
                     .bold()
                     .padding()
-//...//
-//cw5
+                //cw5
                 ScrollView(.horizontal){
                     HStack{
-//..//
-//        ForEach(movie.MovieCast,id: \.self){ actor in
-//           Text(actor)
+  //      ForEach(movie.MovieCast,id: \.self){ actor in
+   //        Text(actor)
                          
-//                        }
+                        }
                     }
             }.padding(.vertical)
                 .foregroundColor(.white)
@@ -52,10 +48,10 @@ struct detailsView: View {
 
 struct detailsView_Previews: PreviewProvider {
     static var previews: some View {
-        detailsView(movie: picture(movieName:"space"))
+        detailsView(movie: flm(movieName:"spies"))
         
     }
 }
 
 
-}
+
