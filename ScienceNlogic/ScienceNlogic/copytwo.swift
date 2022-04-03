@@ -20,6 +20,10 @@ struct copytwo: View {
 NavigationLink("dimension",destination: (fordimensionone()))
 .font(.largeTitle)
 .foregroundColor(Color.black)
+NavigationLink("ابعاد",destination: (fordimensionone()))
+.font(.largeTitle)
+.foregroundColor(Color.black)
+                    
 // Z1  //
 }
                 ZStack{
@@ -78,7 +82,14 @@ NavigationLink("String",destination: (forstringy()))
 //   //
 struct fordimensionone: View{
     var body: some View{
-        Color.green
+        VStack{
+      VideoView(videoID: "eA8elCQ0tLE")
+            .frame(minHeight: 0, maxHeight: UIScreen.main.bounds.height * 0.3)
+            .cornerRadius(12)
+            .padding(.horizontal,24)
+                 Spacer()
+        }
+//     V   ^//
 }
 }
 //   //
@@ -90,7 +101,21 @@ struct forspace: View{
 //   //
 struct forpsychology: View{
     var body: some View{
-        Color.purple
+        VStack{
+          VideoView(videoID: "yk2V5I78aHg")
+            
+.frame(minHeight: 0, maxHeight: UIScreen.main.bounds.height * 0.3)
+.cornerRadius(12)
+.padding(.horizontal,24)
+            
+          VideoView(videoID: "NssIITHZ28Y")
+            
+.frame(minHeight: 0, maxHeight: UIScreen.main.bounds.height * 0.3)
+.cornerRadius(12)
+.padding(.horizontal,24)
+            Spacer()
+      }
+//    V^    //
 }
 }
 //   //
