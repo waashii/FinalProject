@@ -29,11 +29,9 @@ NavigationLink(destination: detailsView(movie: moviwe)){
 }
     }
 }
-struct copy_Previews: PreviewProvider {
-    static var previews: some View {
-        copy()
-    }
-}
+
+
+
 
 struct movieRow: View {
     var movio : String
@@ -51,4 +49,25 @@ struct movieRow: View {
             
         }
     }
+}
+struct Dimension: View {
+    var body: some View{
+        VStack{
+      VideoView(videoID: "eA8elCQ0tLE")
+            .frame(minHeight: 0, maxHeight: UIScreen.main.bounds.height * 0.3)
+            .cornerRadius(12)
+            .padding(.horizontal,24)
+           // .onTapGesture {
+               // isClick.toggle()
+           // }
+
+                 Spacer()
+    }
+}
+struct copy_Previews: PreviewProvider {
+    static var previews: some View {
+        copy()
+    }
+}
+
 }
