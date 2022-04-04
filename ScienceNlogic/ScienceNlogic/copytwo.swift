@@ -10,7 +10,14 @@ import SwiftUI
 struct copytwo: View {
     var body: some View {
         NavigationView{
+//            Color.black
+            ZStack{
+                Image("aeus")
+                    .resizable()
+    //                .scaledToFit()
+                    .ignoresSafeArea()
             ScrollView{
+//                Color.black
                 ZStack{
                     Image("dimension")
 .resizable()
@@ -20,9 +27,12 @@ struct copytwo: View {
 NavigationLink("dimension",destination: (fordimensionone()))
 .font(.largeTitle)
 .foregroundColor(Color.black)
-NavigationLink("ابعاد",destination: (fordimensionone()))
-.font(.largeTitle)
-.foregroundColor(Color.black)
+.padding()
+//    ill come back for you later
+//NavigationLink("ابعاد",destination: (fordimensionone()))
+//.font(.largeTitle)
+//.foregroundColor(Color.black)
+//.padding()
                     
 // Z1  //
 }
@@ -31,6 +41,7 @@ NavigationLink("ابعاد",destination: (fordimensionone()))
 .resizable()
 .scaledToFit()
 .ignoresSafeArea()
+//.cornerRadius(20)
                     
 NavigationLink("psychology",destination: (forpsychology()))
 .font(.largeTitle)
@@ -74,6 +85,8 @@ NavigationLink("String",destination: (forstringy()))
        }
     .navigationTitle("Home Page")
     .navigationBarTitleDisplayMode(.automatic)
+        }
+//backbackground^//
 }
         
 }
@@ -121,12 +134,28 @@ struct forpsychology: View{
 //   //
 struct fortimeline: View{
     var body: some View{
-        Color.pink
+        VStack{
+        VideoView(videoID: "yuD34tEpRFw")
+   .frame(minHeight: 0, maxHeight: UIScreen.main.bounds.height * 0.3)
+   .cornerRadius(12)
+   .padding(.horizontal,24)
+        
+        
+        Spacer()
+        }
+//    V^    //
 }
 }
 struct forstringy: View{
     var body: some View{
-        Color.blue
+        VStack{
+ VideoView(videoID: "Da-2h2B4faU")
+.frame(minHeight: 0, maxHeight: UIScreen.main.bounds.height * 0.3)
+.cornerRadius(12)
+.padding(.horizontal,24)
+            Spacer()
+        }
+//    V^    //
 }
 }
 //   //

@@ -18,7 +18,6 @@
 		3698E79727F9AC9300CBB375 /* NavigationViewBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3698E79627F9AC9300CBB375 /* NavigationViewBootcamp.swift */; };
 		3698E79927FA254800CBB375 /* copytwo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3698E79827FA254800CBB375 /* copytwo.swift */; };
 		36C9B33327EDFB53002DAD33 /* secondpgView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36C9B33227EDFB53002DAD33 /* secondpgView.swift */; };
-		36C9B33527EE3F69002DAD33 /* TimelinepgView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36C9B33427EE3F69002DAD33 /* TimelinepgView.swift */; };
 		36D1C9C427F4500B003BD2E0 /* StringpgView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36D1C9C327F4500B003BD2E0 /* StringpgView.swift */; };
 		36F6B2A427ECB6950038F31D /* ScienceNlogicApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36F6B2A327ECB6950038F31D /* ScienceNlogicApp.swift */; };
 		36F6B2A627ECB6950038F31D /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36F6B2A527ECB6950038F31D /* ContentView.swift */; };
@@ -38,7 +37,6 @@
 		3698E79627F9AC9300CBB375 /* NavigationViewBootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavigationViewBootcamp.swift; sourceTree = "<group>"; };
 		3698E79827FA254800CBB375 /* copytwo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = copytwo.swift; sourceTree = "<group>"; };
 		36C9B33227EDFB53002DAD33 /* secondpgView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = secondpgView.swift; sourceTree = "<group>"; };
-		36C9B33427EE3F69002DAD33 /* TimelinepgView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimelinepgView.swift; sourceTree = "<group>"; };
 		36D1C9C327F4500B003BD2E0 /* StringpgView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StringpgView.swift; sourceTree = "<group>"; };
 		36F6B2A027ECB6950038F31D /* ScienceNlogic.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ScienceNlogic.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		36F6B2A327ECB6950038F31D /* ScienceNlogicApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScienceNlogicApp.swift; sourceTree = "<group>"; };
@@ -86,7 +84,6 @@
 				3698E79227F99C7400CBB375 /* detailsView.swift */,
 				3698E78A27F90A0C00CBB375 /* quizone.swift */,
 				3698E78C27F90A2300CBB375 /* quiztwo.swift */,
-				36C9B33427EE3F69002DAD33 /* TimelinepgView.swift */,
 				3698E78E27F90A3400CBB375 /* quizthree.swift */,
 				36D1C9C327F4500B003BD2E0 /* StringpgView.swift */,
 				3698E79027F90A4200CBB375 /* quizfour.swift */,
@@ -176,7 +173,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				36C9B33527EE3F69002DAD33 /* TimelinepgView.swift in Sources */,
 				36F6B2A627ECB6950038F31D /* ContentView.swift in Sources */,
 				36C9B33327EDFB53002DAD33 /* secondpgView.swift in Sources */,
 				3698E79327F99C7400CBB375 /* detailsView.swift in Sources */,

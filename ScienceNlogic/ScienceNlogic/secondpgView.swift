@@ -24,7 +24,7 @@ struct secondpgView: View {
                     Image("dimension")
 .resizable()
 .scaledToFit()
-.ignoresSafeArea()
+                                                                        
                         Text("Dimension")
 .font(.largeTitle)
 .fontWeight(.thin)
