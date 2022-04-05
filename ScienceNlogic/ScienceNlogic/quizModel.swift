@@ -51,17 +51,17 @@ QuizModel(img: "timetravel", text: "(Yes or no) was Einstein theory the faster y
           answer: ["ofcourse yes🙄","obviously no🤔"],
           correct: 1),
 //
-QuizModel(img: "ticktock", text: "what did you understand from the video",
-          answer: ["Not to watch borring stuff","Einsteins awesome","having emotional break down"],
+QuizModel(img: "ticktock", text: "(True or false) time runs slower on the earths surface than it does above the atmosphere",
+          answer: ["True","False"],
           correct: 0),
 //
 QuizModel(img: "brokenclock", text: "which light will first reach the man on the train?",
           answer: ["The one that is on the right","The one that is on the left","The closest one to Einstein","The closest one to him"],
           correct: 3),
 //
-QuizModel(img: "flag4", text: "what is some of the reason of BPD (borderline personality disorder)",
-          answer: ["People are the problem","I dont know 😒","😈👈 this guy","Traumatic events"],
-          correct: 3),
+QuizModel(img: "flag4", text: "what is the time dimension named?",
+          answer: ["time dilation","Space time","time BPD","Space dilation"],
+          correct: 1),
 
 //QuizModel(img: "flag5", text: "what are the simptoms of BPD (borderline personality disorder)",
 //          answer: ["hallucination","Not able to imagine","view of people change quickly/self hatred","blood pressure and dizziness"],
