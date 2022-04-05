@@ -74,17 +74,17 @@ QuizModel(img: "dimepersn", text: "Who came up with the first theory of the mult
           answer: ["The person who believed that the universe is constantly splitting","Einstein","Stephen"],
           correct: 0),
 //
-QuizModel(img: "ticktock", text: "what is the multiple worlds theory?",
-          answer: ["Not being able to imagine","struggling with anger and anyxiety","you feel you are in a dream","The universe is constantly splitting and each of the splits became its own universe"],
-          correct: 0),
-//
-QuizModel(img: "brokenclock", text: "what is the diffrent between BPD and Hidden BPD?",
-          answer: ["BPD show there hate towards people and Hidden BPD keep it to themself and hate their self","BPD keep there hate to themself and hate their self and Hidden BPD show there hate towards people"],
-          correct: 0),
-//
-QuizModel(img: "flag4", text: "what is some of the reason of BPD (borderline personality disorder)",
-          answer: ["People are the problem","I dont know 😒","😈👈 this guy","Traumatic events"],
+QuizModel(img: "multiuniverse", text: "what is the multiple worlds theory?",
+          answer: ["Having two of yourself","traveling through time","you feel you are in a dream","The universe is constantly splitting and each of the splits became its own universe"],
           correct: 3),
+//
+QuizModel(img: "through", text: "(True or False)In theory and on paper multiple universes could exist",
+          answer: ["True","False"],
+          correct: 0),
+//
+QuizModel(img: "boxu", text: "what is the theory that explains about traveling to another universe?",
+          answer: ["trampoline","I dont know 😒","Wormholes","space"],
+          correct: 2),
 
 //QuizModel(img: "flag5", text: "what are the simptoms of BPD (borderline personality disorder)",
 //          answer: ["hallucination","Not able to imagine","view of people change quickly/self hatred","blood pressure and dizziness"],
@@ -93,15 +93,15 @@ QuizModel(img: "flag4", text: "what is some of the reason of BPD (borderline per
 /////
 var myQuiz4 : [QuizModel] = [
 
-QuizModel(img: "timetravel", text: "what are?",
-          answer: ["hallucination","Not able to imagine","view of people change quickly/self hatred","blood pressure and dizziness"],
-          correct: 2),
+QuizModel(img: "timetravel", text: "what color does the dark matter and dark energy have?",
+          answer: ["blue","black","purple","invisible"],
+          correct: 3),
 //
-QuizModel(img: "ticktock", text: "what is aphantasia?",
-          answer: ["Not being able to imagine","struggling with anger and anyxiety","you feel you are in a dream","having emotional break down"],
-          correct: 0),
+QuizModel(img: "ticktock", text: "(True or False) Dark matter is what the black hole is made of",
+          answer: ["True","False"],
+          correct: 1),
 //
-QuizModel(img: "brokenclock", text: "what is the diffrent between BPD and Hidden BPD?",
+QuizModel(img: "brokenclock", text: "what does dark matter or energy interacts with?",
           answer: ["BPD show there hate towards people and Hidden BPD keep it to themself and hate their self","BPD keep there hate to themself and hate their self and Hidden BPD show there hate towards people"],
           correct: 0),
 //
