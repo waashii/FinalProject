@@ -21,9 +21,9 @@ struct QuiZtry3: View {
                     Text("start Quiz")
                 }
                 HStack{
-Text("last score :\(self.score)/ \(myQuiz2.count)")
+Text("last score :\(self.score)/ \(myQuiz3.count)")
                         .onAppear(){
-        self.score = LoadScore(quiz: "myQuiz2")
+        self.score = LoadScore(quiz: "myQuiz3")
                         }
                 }
             }
