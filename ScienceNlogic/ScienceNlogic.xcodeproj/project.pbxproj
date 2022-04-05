@@ -18,6 +18,10 @@
 		3698E7A727FC8CC900CBB375 /* Quiz2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3698E7A627FC8CC900CBB375 /* Quiz2.swift */; };
 		3698E7A927FC9ADB00CBB375 /* QuiZtry3.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3698E7A827FC9ADA00CBB375 /* QuiZtry3.swift */; };
 		3698E7AB27FC9B6100CBB375 /* Quiz3.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3698E7AA27FC9B6100CBB375 /* Quiz3.swift */; };
+		3698E7AD27FCA0C500CBB375 /* Quiztry4.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3698E7AC27FCA0C500CBB375 /* Quiztry4.swift */; };
+		3698E7AF27FCA0DD00CBB375 /* Quiztry5.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3698E7AE27FCA0DD00CBB375 /* Quiztry5.swift */; };
+		3698E7B127FCA0F900CBB375 /* Quiz4.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3698E7B027FCA0F900CBB375 /* Quiz4.swift */; };
+		3698E7B327FCA10700CBB375 /* Quiz5.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3698E7B227FCA10700CBB375 /* Quiz5.swift */; };
 		36F6B2A427ECB6950038F31D /* ScienceNlogicApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36F6B2A327ECB6950038F31D /* ScienceNlogicApp.swift */; };
 		36F6B2A627ECB6950038F31D /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36F6B2A527ECB6950038F31D /* ContentView.swift */; };
 		36F6B2A827ECB69C0038F31D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 36F6B2A727ECB69C0038F31D /* Assets.xcassets */; };
@@ -36,6 +40,10 @@
 		3698E7A627FC8CC900CBB375 /* Quiz2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Quiz2.swift; sourceTree = "<group>"; };
 		3698E7A827FC9ADA00CBB375 /* QuiZtry3.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuiZtry3.swift; sourceTree = "<group>"; };
 		3698E7AA27FC9B6100CBB375 /* Quiz3.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Quiz3.swift; sourceTree = "<group>"; };
+		3698E7AC27FCA0C500CBB375 /* Quiztry4.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Quiztry4.swift; sourceTree = "<group>"; };
+		3698E7AE27FCA0DD00CBB375 /* Quiztry5.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Quiztry5.swift; sourceTree = "<group>"; };
+		3698E7B027FCA0F900CBB375 /* Quiz4.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Quiz4.swift; sourceTree = "<group>"; };
+		3698E7B227FCA10700CBB375 /* Quiz5.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Quiz5.swift; sourceTree = "<group>"; };
 		36F6B2A027ECB6950038F31D /* ScienceNlogic.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ScienceNlogic.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		36F6B2A327ECB6950038F31D /* ScienceNlogicApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScienceNlogicApp.swift; sourceTree = "<group>"; };
 		36F6B2A527ECB6950038F31D /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -78,9 +86,13 @@
 				3698E79A27FC054A00CBB375 /* QuiZtry.swift */,
 				3698E7A427FC8B6600CBB375 /* QuiZtry2.swift */,
 				3698E7A827FC9ADA00CBB375 /* QuiZtry3.swift */,
+				3698E7AC27FCA0C500CBB375 /* Quiztry4.swift */,
+				3698E7AE27FCA0DD00CBB375 /* Quiztry5.swift */,
 				3698E79E27FC09CE00CBB375 /* Quiz1.swift */,
 				3698E7A627FC8CC900CBB375 /* Quiz2.swift */,
 				3698E7AA27FC9B6100CBB375 /* Quiz3.swift */,
+				3698E7B027FCA0F900CBB375 /* Quiz4.swift */,
+				3698E7B227FCA10700CBB375 /* Quiz5.swift */,
 				3698E7A227FC500900CBB375 /* FinalView.swift */,
 				3698E79627F9AC9300CBB375 /* NavigationViewBootcamp.swift */,
 				36F6B2A727ECB69C0038F31D /* Assets.xcassets */,
@@ -173,14 +185,18 @@
 				3698E7A727FC8CC900CBB375 /* Quiz2.swift in Sources */,
 				3698E79F27FC09CE00CBB375 /* Quiz1.swift in Sources */,
 				3698E7A127FC0A8300CBB375 /* quizModel.swift in Sources */,
+				3698E7B127FCA0F900CBB375 /* Quiz4.swift in Sources */,
 				36F6B2A627ECB6950038F31D /* ContentView.swift in Sources */,
 				3698E7A327FC500A00CBB375 /* FinalView.swift in Sources */,
 				36F6B2A427ECB6950038F31D /* ScienceNlogicApp.swift in Sources */,
+				3698E7AF27FCA0DD00CBB375 /* Quiztry5.swift in Sources */,
 				3698E79727F9AC9300CBB375 /* NavigationViewBootcamp.swift in Sources */,
 				3667D62527F8640B00037BDC /* flm.swift in Sources */,
 				3698E7A927FC9ADB00CBB375 /* QuiZtry3.swift in Sources */,
 				3698E7AB27FC9B6100CBB375 /* Quiz3.swift in Sources */,
+				3698E7B327FCA10700CBB375 /* Quiz5.swift in Sources */,
 				3698E79B27FC054B00CBB375 /* QuiZtry.swift in Sources */,
+				3698E7AD27FCA0C500CBB375 /* Quiztry4.swift in Sources */,
 				3673B41D27F2275C002E74ED /* VideoView.swift in Sources */,
 				3698E7A527FC8B6600CBB375 /* QuiZtry2.swift in Sources */,
 			);
