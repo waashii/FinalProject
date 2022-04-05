@@ -16,19 +16,19 @@ struct Quiz2: View {
         
 VStack(alignment: .leading, spacing: 15){
     
-    if(self.i < myQuiz1.count){
+    if(self.i < myQuiz2.count){
         
-        Image(myQuiz1[self.i].img!)
+        Image(myQuiz2[self.i].img!)
             .resizable()
             .scaledToFit()
             .padding(.horizontal)
         
-        Text(myQuiz1[self.i].text!)
+        Text(myQuiz2[self.i].text!)
         Button(action:{
             self.showActionSheet = true
             self.buttonAction(n: 0)
         },label: {
-            Text(myQuiz1[self.i].answer[0])
+            Text(myQuiz2[self.i].answer[0])
                 .foregroundColor(.black)
                 .padding()
 //    .frame(minWidth: .infinity, alignment: .leading)
@@ -40,7 +40,7 @@ VStack(alignment: .leading, spacing: 15){
         .actionSheet(isPresented: $showActionSheet) {
             ActionSheet(
                 title: Text("Score"),
-                message: Text("Score : \(self.score)/ \(myQuiz1.count)"),
+                message: Text("Score : \(self.score)/ \(myQuiz2.count)"),
                 buttons: [
     .cancel { print(self.showActionSheet) }
                     ]
@@ -51,7 +51,7 @@ VStack(alignment: .leading, spacing: 15){
             self.showActionSheet = true
             self.buttonAction(n: 1)
         },label: {
-            Text(myQuiz1[self.i].answer[1])
+            Text(myQuiz2[self.i].answer[1])
                 .foregroundColor(.black)
                 .padding()
 //    .frame(minWidth: .infinity, alignment: .leading)
@@ -63,7 +63,7 @@ VStack(alignment: .leading, spacing: 15){
         .actionSheet(isPresented: $showActionSheet) {
             ActionSheet(
                 title: Text("Score"),
-                message: Text("Score : \(self.score)/ \(myQuiz1.count)"),
+                message: Text("Score : \(self.score)/ \(myQuiz2.count)"),
                 buttons: [
     .cancel { print(self.showActionSheet) }
                     ]
@@ -74,7 +74,7 @@ VStack(alignment: .leading, spacing: 15){
             self.showActionSheet = true
             self.buttonAction(n: 2)
         },label: {
-Text(myQuiz1[self.i].answer[2])
+Text(myQuiz2[self.i].answer[2])
                 .foregroundColor(.black)
                 .padding()
 //    .frame(minWidth: .infinity, alignment: .leading)
@@ -86,7 +86,7 @@ Text(myQuiz1[self.i].answer[2])
         .actionSheet(isPresented: $showActionSheet) {
             ActionSheet(
                 title: Text("Score"),
-                message: Text("Score : \(self.score)/ \(myQuiz1.count)"),
+                message: Text("Score : \(self.score)/ \(myQuiz2.count)"),
                 buttons: [
     .cancel { print(self.showActionSheet) }
                     ]
@@ -99,7 +99,7 @@ Text(myQuiz1[self.i].answer[2])
             self.showActionSheet = true
             self.buttonAction(n: 3)
         },label: {
-            Text(myQuiz1[self.i].answer[3])
+            Text(myQuiz2[self.i].answer[3])
                 .foregroundColor(.black)
                 .padding()
 //    .frame(minWidth: .infinity, alignment: .leading)
@@ -111,7 +111,7 @@ Text(myQuiz1[self.i].answer[2])
         .actionSheet(isPresented: $showActionSheet) {
             ActionSheet(
                 title: Text("Score"),
-                message: Text("Score : \(self.score)/ \(myQuiz1.count)"),
+                message: Text("Score : \(self.score)/ \(myQuiz2.count)"),
                 buttons: [
     .cancel { print(self.showActionSheet) }
                     ]
@@ -127,7 +127,7 @@ Text(myQuiz1[self.i].answer[2])
           .padding(.horizontal)
     }
     func buttonAction( n : Int){
-        if(myQuiz1[self.i].correct == n){
+        if(myQuiz2[self.i].correct == n){
             self.score = self.score + 1
         }
         self.i = self.i + 1
