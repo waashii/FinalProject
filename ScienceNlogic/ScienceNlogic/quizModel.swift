@@ -93,21 +93,21 @@ QuizModel(img: "boxu", text: "what is the theory that explains about traveling t
 /////
 var myQuiz4 : [QuizModel] = [
 
-QuizModel(img: "timetravel", text: "what color does the dark matter and dark energy have?",
+QuizModel(img: "forme", text: "what color does the dark matter and dark energy have?",
           answer: ["blue","black","purple","invisible"],
           correct: 3),
 //
-QuizModel(img: "ticktock", text: "(True or False) Dark matter is what the black hole is made of",
+QuizModel(img: "darkmater", text: "(True or False) Dark matter is what the black hole is made of",
           answer: ["True","False"],
           correct: 1),
 //
-QuizModel(img: "brokenclock", text: "what does dark matter or energy interacts with?",
-          answer: ["BPD show there hate towards people and Hidden BPD keep it to themself and hate their self","BPD keep there hate to themself and hate their self and Hidden BPD show there hate towards people"],
-          correct: 0),
+QuizModel(img: "spacematter", text: "what does dark matter interacts with?",
+          answer: ["The sun","The planets","The Gravity"],
+          correct: 2),
 //
-QuizModel(img: "flag4", text: "what is some of the reason of BPD (borderline personality disorder)",
-          answer: ["People are the problem","I dont know 😒","😈👈 this guy","Traumatic events"],
-          correct: 3),
+QuizModel(img: "darkmatter", text: "Can we measure dark energy?",
+          answer: ["No 😒","😈Yes"],
+          correct: 1),
 
 //QuizModel(img: "flag5", text: "what are the simptoms of BPD (borderline personality disorder)",
 //          answer: ["hallucination","Not able to imagine","view of people change quickly/self hatred","blood pressure and dizziness"],
@@ -116,20 +116,20 @@ QuizModel(img: "flag4", text: "what is some of the reason of BPD (borderline per
 /////
 var myQuiz5 : [QuizModel] = [
 
-QuizModel(img: "timetravel", text: "what are?",
-          answer: ["hallucination","Not able to imagine","view of people change quickly/self hatred","blood pressure and dizziness"],
+QuizModel(img: "timetravel", text: "Is string theory usefull?",
+          answer: ["yes","No since its not proven yet"],
           correct: 2),
 //
-QuizModel(img: "ticktock", text: "what is aphantasia?",
-          answer: ["Not being able to imagine","struggling with anger and anyxiety","you feel you are in a dream","having emotional break down"],
+QuizModel(img: "ticktock", text: "what do we need to see?",
+          answer: ["electromagnetic wave","electronic wave😈","electromagnesuim","Einstein"],
           correct: 0),
 //
-QuizModel(img: "brokenclock", text: "what is the diffrent between BPD and Hidden BPD?",
-          answer: ["BPD show there hate towards people and Hidden BPD keep it to themself and hate their self","BPD keep there hate to themself and hate their self and Hidden BPD show there hate towards people"],
+QuizModel(img: "brokenclock", text: "Why cant we see the small particles?",
+          answer: ["Because they are way too small ","Because our electromagnetic waves we use are way to big"],
           correct: 0),
 //
-QuizModel(img: "flag4", text: "what is some of the reason of BPD (borderline personality disorder)",
-          answer: ["People are the problem","I dont know 😒","😈👈 this guy","Traumatic events"],
+QuizModel(img: "flag4", text: "What does a particle look like",
+          answer: ["A drop","I dont know 😒","A circle","square"],
           correct: 3),
 
 //QuizModel(img: "flag5", text: "what are the simptoms of BPD (borderline personality disorder)",
