@@ -17,13 +17,13 @@ struct QuiZtry2: View {
                 Text("Welcome to the quiz game")
                 
                 //button to start the quiz//
-    NavigationLink(destination: Quiz1()){
+    NavigationLink(destination: Quiz2()){
                     Text("start Quiz")
                 }
                 HStack{
-Text("last score :\(self.score)/ \(myQuiz1.count)")
+Text("last score :\(self.score)/ \(myQuiz2.count)")
                         .onAppear(){
-        self.score = LoadScore(quiz: "myQuiz1")
+        self.score = LoadScore(quiz: "myQuiz2")
                         }
                 }
             }
