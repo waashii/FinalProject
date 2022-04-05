@@ -12,7 +12,7 @@ struct copytwo: View {
         NavigationView{
 //            Color.black
             ZStack{
-                Image("aeus")
+                Image("blackbackground")
                     .resizable()
     //                .scaledToFit()
                     .ignoresSafeArea()
@@ -108,7 +108,18 @@ struct fordimensionone: View{
 //   //
 struct forspace: View{
     var body: some View{
-        Color.black
+        ZStack{
+            VStack{
+            Image("spacer")
+.resizable()
+.scaledToFit()
+.ignoresSafeArea()
+//.frame(width: 540, height: 1000)
+            }
+            .frame(width: 540, height: 1000)
+//    V^    //
+        }
+//    Z^    //
 }
 }
 //   //

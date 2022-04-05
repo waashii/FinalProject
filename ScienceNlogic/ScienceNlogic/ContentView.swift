@@ -10,11 +10,18 @@ import SwiftUI
 struct ContentView: View {
     @State var username : String = ""
     var body: some View {
+        NavigationView{
+            ScrollView{
+                ZStack{
+                Image("aeus")
+                    .resizable()
+                    .scaledToFit()
+                    .ignoresSafeArea()
         VStack(spacing:40){
     Text("Welcome  \(username)!")
     .font(.system(.title, design: .rounded))
     .fontWeight(.medium)
-    .foregroundColor(Color(red: 0.167, green: 0.152, blue: 0.229))
+    .foregroundColor(Color.white)
             Image("ic")
                 .resizable()
                 .frame(width: 250, height: 250)
@@ -25,9 +32,18 @@ struct ContentView: View {
 
             TextField("type your name here",text: $username)
                  .textFieldStyle(.roundedBorder)
-}.padding()
+
    
-        
+NavigationLink("next",
+destination:(copytwo()))
+.font(.largeTitle)
+.foregroundColor(Color.white)
+.padding()
+
+}.padding()
+}
+}
+        }
     }
 }
 

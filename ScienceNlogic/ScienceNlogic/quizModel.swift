@@ -1,0 +1,52 @@
+//
+//  quizModel.swift
+//  ScienceNlogic
+//
+//  Created by washi alhammadi on 05/04/2022.
+//
+
+import Foundation
+struct QuizModel {
+    var img : String?
+    var text : String?
+    var answer : [String]
+//    راح احط الصح منيي
+    var correct :Int?
+}
+ 
+var myQuiz1 : [QuizModel] = [
+
+QuizModel(img: "flag1", text: "what are the simptoms of BPD (borderline personality disorder)?",
+          answer: ["hallucination","Not able to imagine","view of people change quickly/self hatred","blood pressure and dizziness"],
+          correct: 2),
+//
+QuizModel(img: "flag2", text: "what is aphantasia?",
+          answer: ["struggling with anger and anyxiety","Not being able to imagine","you feel you are in a dream","having emotional break down"],
+          correct: 1),
+//
+QuizModel(img: "flag3", text: "what is the diffrent between BPD and Hidden BPD?",
+          answer: ["BPD show there hate towards people and Hidden BPD keep it to themself and hate their self","BPD keep there hate to themself and hate their self and Hidden BPD show there hate towards people"],
+          correct: 0),
+//
+//QuizModel(img: "flag4", text: "what are the simptoms of BPD (borderline personality disorder)",
+//          answer: ["hallucination","Not able to imagine","view of people change quickly/self hatred","blood pressure and dizziness"],
+//          correct: 2),
+//
+//QuizModel(img: "flag5", text: "what are the simptoms of BPD (borderline personality disorder)",
+//          answer: ["hallucination","Not able to imagine","view of people change quickly/self hatred","blood pressure and dizziness"],
+//          correct: 2),
+//
+//QuizModel(img: "flag6", text: "what are the simptoms of BPD (borderline personality disorder)",
+//          answer: ["hallucination","Not able to imagine","view of people change quickly/self hatred","blood pressure and dizziness"],
+//          correct: 2),
+//
+
+
+
+]
+func SaveScore(quiz : String , score : Int){
+    UserDefaults.standard.set(score, forKey: quiz)
+}
+func LoadScore (quiz : String) -> Int{
+    return UserDefaults.standard.integer(forKey: quiz)
+}
