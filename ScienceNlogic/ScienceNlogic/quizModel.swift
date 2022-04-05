@@ -47,17 +47,17 @@ QuizModel(img: "flag4", text: "what is some of the reason of BPD (borderline per
 ////////////////////////
 var myQuiz2 : [QuizModel] = [
 
-QuizModel(img: "timetravel", text: "what are?",
-          answer: ["hallucination","Not able to imagine","view of people change quickly/self hatred","blood pressure and dizziness"],
-          correct: 2),
+QuizModel(img: "timetravel", text: "(Yes or no) was Einstein theory the faster you move in time the slower you move in space?",
+          answer: ["ofcourse yes🙄","obviously no🤔"],
+          correct: 1),
 //
-QuizModel(img: "ticktock", text: "what is aphantasia?",
-          answer: ["Not being able to imagine","struggling with anger and anyxiety","you feel you are in a dream","having emotional break down"],
+QuizModel(img: "ticktock", text: "what did you understand from the video",
+          answer: ["Not to watch borring stuff","Einsteins awesome","having emotional break down"],
           correct: 0),
 //
-QuizModel(img: "brokenclock", text: "what is the diffrent between BPD and Hidden BPD?",
-          answer: ["BPD show there hate towards people and Hidden BPD keep it to themself and hate their self","BPD keep there hate to themself and hate their self and Hidden BPD show there hate towards people"],
-          correct: 0),
+QuizModel(img: "brokenclock", text: "which light will first reach the man on the train?",
+          answer: ["The one that is on the right","The one that is on the left","The closest one to Einstein","The closest one to him"],
+          correct: 3),
 //
 QuizModel(img: "flag4", text: "what is some of the reason of BPD (borderline personality disorder)",
           answer: ["People are the problem","I dont know 😒","😈👈 this guy","Traumatic events"],
