@@ -17,7 +17,7 @@ struct QuizModel {
 var myQuiz1 : [QuizModel] = [
 
 QuizModel(img: "flag1", text: "what are the simptoms of BPD (borderline personality disorder)?",
-          answer: ["hallucination","Not able to imagine","view of people change quickly/self hatred","blood pressure and dizziness"],
+          answer: ["hallucination","Not able to imagine"," their view of the people changes quickly/self hatred","blood pressure and dizziness"],
           correct: 2),
 //
 QuizModel(img: "flag2", text: "what is aphantasia?",
@@ -28,9 +28,9 @@ QuizModel(img: "flag3", text: "what is the diffrent between BPD and Hidden BPD?"
           answer: ["BPD show there hate towards people and Hidden BPD keep it to themself and hate their self","BPD keep there hate to themself and hate their self and Hidden BPD show there hate towards people"],
           correct: 0),
 //
-QuizModel(img: "flag4", text: "what is some of the reason of BPD (borderline personality disorder)",
-          answer: ["People are the problem","I dont know 😒","😈👈 this guy","Traumatic events"],
-          correct: 3),
+QuizModel(img: "flag4", text: "which one of the above is not considered a disorder",
+          answer: ["Musical ear syndrome","BPD","Synesthesia","Factitious disorder"],
+          correct: 2),
 
 //QuizModel(img: "flag5", text: "what are the simptoms of BPD (borderline personality disorder)",
 //          answer: ["hallucination","Not able to imagine","view of people change quickly/self hatred","blood pressure and dizziness"],
