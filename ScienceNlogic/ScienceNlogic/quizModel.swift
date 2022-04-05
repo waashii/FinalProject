@@ -116,19 +116,19 @@ QuizModel(img: "darkmatter", text: "Can we measure dark energy?",
 /////
 var myQuiz5 : [QuizModel] = [
 
-QuizModel(img: "timetravel", text: "Is string theory usefull?",
+QuizModel(img: "plan", text: "Is string theory usefull?",
           answer: ["yes","No since its not proven yet"],
           correct: 2),
 //
-QuizModel(img: "ticktock", text: "what do we need to see?",
+QuizModel(img: "yah", text: "what do we need to see?",
           answer: ["electromagnetic wave","electronic wave😈","electromagnesuim","Einstein"],
           correct: 0),
 //
-QuizModel(img: "brokenclock", text: "Why cant we see the small particles?",
+QuizModel(img: "road", text: "Why cant we see the small particles?",
           answer: ["Because they are way too small ","Because our electromagnetic waves we use are way to big"],
           correct: 0),
 //
-QuizModel(img: "flag4", text: "What does a particle look like",
+QuizModel(img: "spare", text: "What does a particle look like",
           answer: ["A drop","I dont know 😒","A circle","square"],
           correct: 3),
 
