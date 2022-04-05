@@ -9,18 +9,11 @@
 /* Begin PBXBuildFile section */
 		3667D62527F8640B00037BDC /* flm.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3667D62427F8640B00037BDC /* flm.swift */; };
 		3673B41D27F2275C002E74ED /* VideoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3673B41C27F2275C002E74ED /* VideoView.swift */; };
-		3698E78B27F90A0C00CBB375 /* quizone.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3698E78A27F90A0C00CBB375 /* quizone.swift */; };
-		3698E78D27F90A2300CBB375 /* quiztwo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3698E78C27F90A2300CBB375 /* quiztwo.swift */; };
-		3698E78F27F90A3400CBB375 /* quizthree.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3698E78E27F90A3400CBB375 /* quizthree.swift */; };
-		3698E79127F90A4200CBB375 /* quizfour.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3698E79027F90A4200CBB375 /* quizfour.swift */; };
-		3698E79327F99C7400CBB375 /* detailsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3698E79227F99C7400CBB375 /* detailsView.swift */; };
 		3698E79727F9AC9300CBB375 /* NavigationViewBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3698E79627F9AC9300CBB375 /* NavigationViewBootcamp.swift */; };
-		3698E79927FA254800CBB375 /* copytwo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3698E79827FA254800CBB375 /* copytwo.swift */; };
-		3698E79B27FC054B00CBB375 /* QuiZ try.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3698E79A27FC054A00CBB375 /* QuiZ try.swift */; };
+		3698E79B27FC054B00CBB375 /* QuiZtry.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3698E79A27FC054A00CBB375 /* QuiZtry.swift */; };
 		3698E79F27FC09CE00CBB375 /* Quiz1.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3698E79E27FC09CE00CBB375 /* Quiz1.swift */; };
 		3698E7A127FC0A8300CBB375 /* quizModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3698E7A027FC0A8300CBB375 /* quizModel.swift */; };
-		36C9B33327EDFB53002DAD33 /* secondpgView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36C9B33227EDFB53002DAD33 /* secondpgView.swift */; };
-		36D1C9C427F4500B003BD2E0 /* StringpgView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36D1C9C327F4500B003BD2E0 /* StringpgView.swift */; };
+		3698E7A327FC500A00CBB375 /* FinalView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3698E7A227FC500900CBB375 /* FinalView.swift */; };
 		36F6B2A427ECB6950038F31D /* ScienceNlogicApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36F6B2A327ECB6950038F31D /* ScienceNlogicApp.swift */; };
 		36F6B2A627ECB6950038F31D /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36F6B2A527ECB6950038F31D /* ContentView.swift */; };
 		36F6B2A827ECB69C0038F31D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 36F6B2A727ECB69C0038F31D /* Assets.xcassets */; };
@@ -30,18 +23,11 @@
 /* Begin PBXFileReference section */
 		3667D62427F8640B00037BDC /* flm.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = flm.swift; sourceTree = "<group>"; };
 		3673B41C27F2275C002E74ED /* VideoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VideoView.swift; sourceTree = "<group>"; };
-		3698E78A27F90A0C00CBB375 /* quizone.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = quizone.swift; sourceTree = "<group>"; };
-		3698E78C27F90A2300CBB375 /* quiztwo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = quiztwo.swift; sourceTree = "<group>"; };
-		3698E78E27F90A3400CBB375 /* quizthree.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = quizthree.swift; sourceTree = "<group>"; };
-		3698E79027F90A4200CBB375 /* quizfour.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = quizfour.swift; sourceTree = "<group>"; };
-		3698E79227F99C7400CBB375 /* detailsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = detailsView.swift; sourceTree = "<group>"; };
 		3698E79627F9AC9300CBB375 /* NavigationViewBootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavigationViewBootcamp.swift; sourceTree = "<group>"; };
-		3698E79827FA254800CBB375 /* copytwo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = copytwo.swift; sourceTree = "<group>"; };
-		3698E79A27FC054A00CBB375 /* QuiZ try.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "QuiZ try.swift"; sourceTree = "<group>"; };
+		3698E79A27FC054A00CBB375 /* QuiZtry.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuiZtry.swift; sourceTree = "<group>"; };
 		3698E79E27FC09CE00CBB375 /* Quiz1.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Quiz1.swift; sourceTree = "<group>"; };
 		3698E7A027FC0A8300CBB375 /* quizModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = quizModel.swift; sourceTree = "<group>"; };
-		36C9B33227EDFB53002DAD33 /* secondpgView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = secondpgView.swift; sourceTree = "<group>"; };
-		36D1C9C327F4500B003BD2E0 /* StringpgView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StringpgView.swift; sourceTree = "<group>"; };
+		3698E7A227FC500900CBB375 /* FinalView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FinalView.swift; sourceTree = "<group>"; };
 		36F6B2A027ECB6950038F31D /* ScienceNlogic.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ScienceNlogic.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		36F6B2A327ECB6950038F31D /* ScienceNlogicApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScienceNlogicApp.swift; sourceTree = "<group>"; };
 		36F6B2A527ECB6950038F31D /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -81,17 +67,10 @@
 			children = (
 				36F6B2A327ECB6950038F31D /* ScienceNlogicApp.swift */,
 				36F6B2A527ECB6950038F31D /* ContentView.swift */,
-				36C9B33227EDFB53002DAD33 /* secondpgView.swift */,
-				3698E79827FA254800CBB375 /* copytwo.swift */,
-				3698E79A27FC054A00CBB375 /* QuiZ try.swift */,
+				3698E79A27FC054A00CBB375 /* QuiZtry.swift */,
 				3698E79E27FC09CE00CBB375 /* Quiz1.swift */,
+				3698E7A227FC500900CBB375 /* FinalView.swift */,
 				3698E79627F9AC9300CBB375 /* NavigationViewBootcamp.swift */,
-				3698E79227F99C7400CBB375 /* detailsView.swift */,
-				3698E78A27F90A0C00CBB375 /* quizone.swift */,
-				3698E78C27F90A2300CBB375 /* quiztwo.swift */,
-				3698E78E27F90A3400CBB375 /* quizthree.swift */,
-				36D1C9C327F4500B003BD2E0 /* StringpgView.swift */,
-				3698E79027F90A4200CBB375 /* quizfour.swift */,
 				36F6B2A727ECB69C0038F31D /* Assets.xcassets */,
 				36F6B2A927ECB69C0038F31D /* Preview Content */,
 				3673B41C27F2275C002E74ED /* VideoView.swift */,
@@ -182,19 +161,12 @@
 				3698E79F27FC09CE00CBB375 /* Quiz1.swift in Sources */,
 				3698E7A127FC0A8300CBB375 /* quizModel.swift in Sources */,
 				36F6B2A627ECB6950038F31D /* ContentView.swift in Sources */,
-				36C9B33327EDFB53002DAD33 /* secondpgView.swift in Sources */,
-				3698E79327F99C7400CBB375 /* detailsView.swift in Sources */,
+				3698E7A327FC500A00CBB375 /* FinalView.swift in Sources */,
 				36F6B2A427ECB6950038F31D /* ScienceNlogicApp.swift in Sources */,
-				36D1C9C427F4500B003BD2E0 /* StringpgView.swift in Sources */,
 				3698E79727F9AC9300CBB375 /* NavigationViewBootcamp.swift in Sources */,
-				3698E78F27F90A3400CBB375 /* quizthree.swift in Sources */,
-				3698E78D27F90A2300CBB375 /* quiztwo.swift in Sources */,
 				3667D62527F8640B00037BDC /* flm.swift in Sources */,
-				3698E78B27F90A0C00CBB375 /* quizone.swift in Sources */,
-				3698E79B27FC054B00CBB375 /* QuiZ try.swift in Sources */,
-				3698E79127F90A4200CBB375 /* quizfour.swift in Sources */,
+				3698E79B27FC054B00CBB375 /* QuiZtry.swift in Sources */,
 				3673B41D27F2275C002E74ED /* VideoView.swift in Sources */,
-				3698E79927FA254800CBB375 /* copytwo.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

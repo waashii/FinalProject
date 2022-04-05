@@ -7,7 +7,7 @@
 
 import SwiftUI
 
-struct QuiZ_try: View {
+struct QuiZtry: View {
     @State var score = 0
     
     var body: some View {
@@ -28,12 +28,13 @@ Text("last score :\(self.score)/ \(myQuiz1.count)")
                 }
             }
             .navigationBarTitle("Quiz example",displayMode: .inline)
-        }
+            .navigationBarHidden(true)
+        } .navigationBarHidden(true)
     }
 }
 
 struct QuiZ_try_Previews: PreviewProvider {
     static var previews: some View {
-        QuiZ_try()
+        QuiZtry()
     }
 }
