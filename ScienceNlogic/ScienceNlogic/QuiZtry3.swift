@@ -17,7 +17,7 @@ struct QuiZtry3: View {
                 Text("Welcome to the quiz game")
                 
                 //button to start the quiz//
-    NavigationLink(destination: Quiz2()){
+    NavigationLink(destination: Quiz3()){
                     Text("start Quiz")
                 }
                 HStack{

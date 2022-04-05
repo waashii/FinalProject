@@ -9,31 +9,30 @@ import SwiftUI
 
 struct Quiztry4: View {
     @State var score = 0
+    
     var body: some View {
         NavigationView{
             VStack(spacing: 20){
                 
-      Text("welcome to quiz")
+                Text("Welcome to the quiz game")
+                
+                //button to start the quiz//
     NavigationLink(destination: Quiz4()){
-            Text("start the quiz")
+                    Text("start Quiz")
                 }
                 HStack{
-Text("last score :\(self.score)/\(myQuiz4.count)")
+Text("last score :\(self.score)/ \(myQuiz4.count)")
                         .onAppear(){
-self.score = LoadScore(quiz: "myQuiz4")
+        self.score = LoadScore(quiz: "myQuiz4")
                         }
                 }
-            }.navigationBarTitle("Quiz Example",displayMode: .inline)
-//V
-            
-            
-            
-            
-            
-            
+            }
+            .navigationBarTitle("Quiz example",displayMode: .inline)
+            .navigationBarHidden(true)
+        } .navigationBarHidden(true)
+    }
 }
-}
-}
+
 
 struct Quiztry4_Previews: PreviewProvider {
     static var previews: some View {
