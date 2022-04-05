@@ -269,7 +269,7 @@ struct fortimeline: View{
    .padding(.horizontal,24)
         Spacer()
             
-NavigationLink("start the quiz",destination:(QuiZtry()))
+NavigationLink("start the quiz",destination:(QuiZtry2()))
             .font(.largeTitle)
             .foregroundColor(.white)
             Spacer()

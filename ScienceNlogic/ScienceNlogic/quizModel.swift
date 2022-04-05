@@ -47,15 +47,15 @@ QuizModel(img: "flag4", text: "what is some of the reason of BPD (borderline per
 ////////////////////////
 var myQuiz2 : [QuizModel] = [
 
-QuizModel(img: "flag1", text: "what are the simptoms of BPD (borderline personality disorder)?",
+QuizModel(img: "timetravel", text: "what are?",
           answer: ["hallucination","Not able to imagine","view of people change quickly/self hatred","blood pressure and dizziness"],
           correct: 2),
 //
-QuizModel(img: "flag2", text: "what is aphantasia?",
+QuizModel(img: "ticktock", text: "what is aphantasia?",
           answer: ["Not being able to imagine","struggling with anger and anyxiety","you feel you are in a dream","having emotional break down"],
           correct: 0),
 //
-QuizModel(img: "flag3", text: "what is the diffrent between BPD and Hidden BPD?",
+QuizModel(img: "brokenclock", text: "what is the diffrent between BPD and Hidden BPD?",
           answer: ["BPD show there hate towards people and Hidden BPD keep it to themself and hate their self","BPD keep there hate to themself and hate their self and Hidden BPD show there hate towards people"],
           correct: 0),
 //
