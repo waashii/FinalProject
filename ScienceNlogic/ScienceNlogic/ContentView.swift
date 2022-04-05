@@ -195,14 +195,16 @@ struct forspace: View{
 .ignoresSafeArea()
 //.frame(width: 540, height: 1000)
             VStack{
+                Spacer()
                 VideoView(videoID: "eA8elCQ0tLE")
                       .frame(minHeight: 0, maxHeight: UIScreen.main.bounds.height * 0.3)
                       .cornerRadius(12)
                       .padding(.horizontal,24)
-//                           Spacer()
+                           Spacer()
 NavigationLink("start the quiz",destination:(QuiZtry()))
 .font(.largeTitle)
 .foregroundColor(.white)
+                Spacer()
             }
 //    V^    //
         }
@@ -223,6 +225,7 @@ struct forpsychology: View{
 .scaledToFit()
 .ignoresSafeArea()
         VStack{
+            Spacer()
           VideoView(videoID: "yk2V5I78aHg")
             
 .frame(minHeight: 0, maxHeight: UIScreen.main.bounds.height * 0.3)
@@ -234,10 +237,11 @@ struct forpsychology: View{
 .frame(minHeight: 0, maxHeight: UIScreen.main.bounds.height * 0.3)
 .cornerRadius(12)
 .padding(.horizontal,24)
-//            Spacer()
+            Spacer()
 NavigationLink("        start the quiz",destination:(QuiZtry()))
             .font(.largeTitle)
             .foregroundColor(.white)
+            Spacer()
       }
 //    V^    //
       }
@@ -250,28 +254,62 @@ NavigationLink("        start the quiz",destination:(QuiZtry()))
 //   //
 struct fortimeline: View{
     var body: some View{
+        NavigationView{
+            ScrollView{
+                ZStack{
+                    Image("timutravelu")
+.resizable()
+.scaledToFit()
+.ignoresSafeArea()
         VStack{
+            Spacer()
         VideoView(videoID: "yuD34tEpRFw")
    .frame(minHeight: 0, maxHeight: UIScreen.main.bounds.height * 0.3)
    .cornerRadius(12)
    .padding(.horizontal,24)
-        
-        
         Spacer()
+            
+NavigationLink("start the quiz",destination:(QuiZtry()))
+            .font(.largeTitle)
+            .foregroundColor(.white)
+            Spacer()
         }
 //    V^    //
+        }
+//    Z^    //
+            }
+            .navigationBarHidden(true)
+}
 }
 }
 struct forstringy: View{
     var body: some View{
+        NavigationView{
+            ScrollView{
+                ZStack{
+                    Image("mybearBear")
+.resizable()
+.scaledToFit()
+.ignoresSafeArea()
+        
         VStack{
+            Spacer()
  VideoView(videoID: "Da-2h2B4faU")
 .frame(minHeight: 0, maxHeight: UIScreen.main.bounds.height * 0.3)
 .cornerRadius(12)
 .padding(.horizontal,24)
             Spacer()
+NavigationLink("                     start the quiz",destination:(QuiZtry()))
+.font(.largeTitle)
+.foregroundColor(.white)
+            Spacer()
         }
 //    V^    //
+        }
+//    Z^   //
+            }
+            .navigationBarHidden(true)
+}
 }
 }
 //   //
