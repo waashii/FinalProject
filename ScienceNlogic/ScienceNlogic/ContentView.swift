@@ -196,7 +196,7 @@ struct forspace: View{
 //.frame(width: 540, height: 1000)
             VStack{
                 Spacer()
-                VideoView(videoID: "eA8elCQ0tLE")
+                VideoView(videoID: "QAa2O_8wBUQ")
                       .frame(minHeight: 0, maxHeight: UIScreen.main.bounds.height * 0.3)
                       .cornerRadius(12)
                       .padding(.horizontal,24)
